@@ -1,0 +1,47 @@
+body {
+    padding: 0px !important;
+    font-family: 'Roboto', sans-serif !important; 
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; 
+}
+
+#homeimg {
+    height: 300px; 
+    width: auto
+}
+
+header {
+    background-color: #2555F5;
+    color: #fff;
+}
+
+header, section {
+    padding: 5% 5% 0px 5%;
+}
+
+.whitelink {
+    color:#fff
+}
+
+.active {
+    color:#2555F5;
+    background-color: #fff;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.nounderline {
+    text-decoration: none;
+    padding: 10px 10px 0px 10px;
+}
+
+img {
+    opacity: 0.5;
+  }
+
+img:hover {
+    opacity: 1.0;
+    transition: opacity .25s ease-in-out;
+}  
